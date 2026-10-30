@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
-
+from document_ui import render_document_section
 load_dotenv()
 
 st.set_page_config(
